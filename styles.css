@@ -1,0 +1,155 @@
+html,
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0;
+}
+
+/* HEADER STYLES */
+header {
+    height: 88px;
+    padding: 0 136.5px 0 136.5px;
+    background-color: rgb(44 50 58);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    width: 69px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo img {
+    width: 100%;
+    height: 100%;
+}
+.header-version {
+    height: 22px;
+    min-width: 22px;
+    line-height: 0;
+    border-radius: 6px;
+    cursor: default;
+    align-items: center;
+    white-space: nowrap;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0px 8px;
+    color: rgb(12, 83, 183);
+    font-size: 0.75rem;
+    font-family: Tahoma, sans-serif;
+    background-color: rgba(24, 144, 255, 0.16);
+    font-weight: 700;
+    margin-left: 8px;
+}
+.header-right-items {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.header-right-items span {
+    font-weight: 600;
+    line-height: 1.57143;
+    font-size: 0.875rem;
+    font-family: Tahoma, sans-serif;
+    transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.dashboard {
+    color: rgb(0, 171, 85) !important;
+}
+.header-gdvietnam-button {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(0, 171, 85);
+    cursor: pointer;
+    border: none;
+    width: 120px;
+    height: 35px;
+}
+/* END HEADER STYLES */
+
+/* PROFILE 1 STYLES */
+.profile1 {
+    height: 784px;
+    width: 520px;
+    margin-left: 136.5px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* align-items: center; */
+    background-color: rgb(44 50 58);
+    padding-top: 6px;
+    gap: 40px;
+}
+.profile1-title {
+    width: 100%;
+    height: 192px;
+}
+.profile1-title span {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.33333;
+    font-family: Tahoma, sans-serif;
+}
+.profile1-specification {
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.profile1-specification p {
+    line-height: 1.5;
+    font-size: 1rem;
+    font-family: Tahoma, sans-serif;
+    font-weight: 400;
+}
+.profile1-interact {
+    width: 100%;
+    height: 22px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+.iteract-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.iteract-item img {
+    width: 20px;
+    height: 20px;
+}
+.iteract-item a {
+    color: white !important;
+    line-height: 1.57143;
+    font-size: 0.875rem;
+    font-family: Tahoma, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    top: 1px;
+}
+.iteract-item a:hover {
+    text-decoration: underline;
+}
+
+.profile1-detail {
+    width: 100%;
+    height: 48px;
+    background-color: darkgray;
+}
+.profile1-devices {
+    display: flex;
+    width: 100%;
+    height: 74px;
+    flex-direction: column;
+    gap: 20px;
+    background-color: darkgray;
+}
+/* END PROFILE 1 STYLES */
