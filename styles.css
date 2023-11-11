@@ -400,7 +400,6 @@ header {
     width: 66.6667%;
     display: flex;
     justify-content: center;
-
 }
 .profile3-pictures-container {
     align-items: center;
@@ -444,3 +443,86 @@ header {
     height: 400px;
     border-radius: 12px;
 }
+/* END PROFILE 3 STYLES */
+
+/* PROFILE 4 STYLES */
+.profile4 {
+    margin-top: 200px;
+    padding: 0 144px 0 144px;
+    height: 482px !important;
+    position: relative;
+    color: white;
+    /* background-color: yellowgreen; */
+}
+.profile4-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 130px;
+    position: relative;
+}
+.profile4-content-images {
+    width: 66%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.profile4-content-images img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.profile4-content-information {
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.information-child-title {
+    width: 100%;
+    height: 34px;
+}
+.information-child-title span {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: rgb(99, 115, 129)
+}
+.information-title {
+    width: 100%;
+    height: 88px;
+}
+.information-title h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.33333;
+    margin: 0;
+}
+.information-paragraph {
+    width: 100%;
+    height: 64px;
+}
+.information-paragraph p {
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.profile4-background {
+    width: 720px;
+    height: 720px;
+    position: absolute;
+    top: -150px;
+    right: 110px;
+    opacity: 0.48;
+}
+.profile4-background img {
+    width: 100%;
+    height: 100%;
+}
+/* END PROFILE 4 STYLES */
