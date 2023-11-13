@@ -32,7 +32,7 @@
                     3D Simulation
                     <br />
                     by
-                    <span style="color: rgb(0, 171, 85)">GD VIET NAM</span>
+                    <span style="color: var(--current-mode)">GD VIET NAM</span>
                 </span>
             </div>
             <div class="profile1-specification">
@@ -220,12 +220,71 @@
             <div class="profile5-paragraph">
                 <p>Chế độ màu sắc tùy ý chỉ, bạn chỉ cần bấm chuột và chọn.</p>
             </div>
-            <div class="profile5-radio-colors"></div>
+            <div class="profile5-radio-colors">
+                <form class="profile5-radio">
+                    <label class="label-radio">
+                        <input
+                            type="radio"
+                            style="accent-color: rgb(0, 171, 85)"
+                            class="input-toggle-color"
+                            name="color"
+                            value="green"
+                            checked />
+                        <div
+                            class="display-color"
+                            style="background-color: rgb(0, 171, 85)"></div>
+                    </label>
+                    <label class="label-radio">
+                        <input
+                            type="radio"
+                            style="accent-color: rgb(118, 53, 220)"
+                            class="input-toggle-color"
+                            name="color"
+                            value="purple" />
+                        <div
+                            class="display-color"
+                            style="background-color: rgb(118, 53, 220)"></div>
+                    </label>
+                    <label class="label-radio">
+                        <input
+                            type="radio"
+                            style="accent-color: rgb(32, 101, 209)"
+                            class="input-toggle-color"
+                            name="color"
+                            value="blue" />
+                        <div
+                            class="display-color"
+                            style="background-color: rgb(32, 101, 209)"></div>
+                    </label>
+                    <label class="label-radio">
+                        <input
+                            type="radio"
+                            style="accent-color: rgb(253, 169, 45)"
+                            class="input-toggle-color"
+                            name="color"
+                            value="yellow" />
+                        <div
+                            class="display-color"
+                            style="background-color: rgb(253, 169, 45)"></div>
+                    </label>
+                    <label class="label-radio">
+                        <input
+                            type="radio"
+                            style="accent-color: rgb(255, 48, 48)"
+                            class="input-toggle-color"
+                            name="color"
+                            value="red" />
+                        <div
+                            class="display-color"
+                            style="background-color: rgb(255, 48, 48)"></div>
+                    </label>
+                </form>
+            </div>
             <div class="profile5-images">
-                <img src="./images/profile5_background.png" alt="background">
-                <img src="./images/profile5_earth.png" alt="earth">
-                <img src="./images/profile5_block.png" alt="block">
-                <img src="./images/profile5_sidebar.png" alt="sidebar">
+                <img src="./images/profile5_background.png" alt="background" />
+                <img id="earth" src="./images/profile5_earth_green.png" alt="earth" />
+                <img id="block" src="./images/profile5_block_green.png" alt="block" />
+                <img id="sidebar" src="./images/profile5_sidebar_green.png" alt="sidebar" />
             </div>
         </div>
         <!-- end profile 5 -->
@@ -233,14 +292,16 @@
         <!-- footer -->
         <footer>
             <div class="footer-logo">
-                <img src="./images/logo.png" alt="logo">
+                <img src="./images/logo.png" alt="logo" />
             </div>
             <div class="footer-cation">
                 <p>
-                    © 2022 bởi 
-                    <span style="color: rgb(0, 171, 85);">GD Việt Nam</span>
+                    © 2022 bởi
+                    <span style="color: rgb(0, 171, 85)">GD Việt Nam</span>
                 </p>
             </div>
         </footer>
     </body>
+
+    <script src="./app.js"></script>
 </html>
